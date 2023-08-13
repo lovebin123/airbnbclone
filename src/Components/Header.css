@@ -1,0 +1,70 @@
+.header-container{
+   max-width: 1000px;
+   width:200%;
+
+
+  
+}
+.header-wrapper{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200%;
+   height:80px;
+    margin: 5px auto 0 auto;
+    background-color:rgb(231, 227, 227);
+  
+    
+}
+.headervideo {
+    position:absolute;
+    left: 1500px;
+    top: 1000x;
+   float: right;
+   padding-left: 20px;
+   margin-top: 20px;
+   
+  
+  }
+   
+  .headervideo:after {
+    content:url("https://www.wonderplugin.com/download/playbutton.png");
+    size: 1px;
+    z-index:999;
+    position:absolute;
+    top:41%;
+    
+    left:139%;
+    margin-left:-133px;
+    margin-top:-32px;
+    opacity:0.8;
+  }
+   
+  .headervideo:hover:after {
+    opacity:1;
+  }
+  .headervideo:hover{
+    cursor: pointer;
+  }
+   
+  .headervideo img {
+    width: 100px;
+    right: 1600px;
+    top: 1500px;
+    border-radius: 30%;
+    
+  }
+  .headervideo a,Link{
+    text-decoration: none;
+    vertical-align:middle;
+   text-align: center;
+
+   
+    
+  }
+  .header-wrapper p{
+    transform: translateX(-140px);
+    margin-top: 20px;
+  }
+  

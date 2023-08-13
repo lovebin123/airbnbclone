@@ -1,0 +1,207 @@
+.searchbar-container{
+    max-width: 1000px;
+    width:100%;
+    
+   
+ }
+ .searchbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200%;
+    max-width: 2000px;
+    margin: 5px auto 0 auto;
+    
+  
+}
+.airbnb{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.airbnb b{
+    vertical-align: -5px;
+    color: rgb(214, 35, 35);
+    font-size: 20px;
+   text-emphasis-style:calc();
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn-group button:first-child {
+    border-radius: 25px 0 0 25px;
+    background-color: #f8f5f4;
+    
+    text-align: center;
+    border-right-width: 0px;
+    
+}
+.btn-group button:last-child {
+    border-radius: 0 25px 25px 0;
+    margin-left: -1px;
+    background-color: #f8f5f4;
+    padding: 1px 1px;
+    color: #454545;
+    border: none;
+    
+    
+}
+.btn-group button{
+   
+    background-color: #f8f5f4;
+   margin-top: 26px;
+    color: black; 
+    cursor: pointer; 
+ height: 50px;
+ text-align: center;
+ border: none;
+ width: 140px;
+  
+}
+
+.loginstuff{
+    margin-right: 190px;
+    
+}
+.loginstuff a img{
+    vertical-align: 3px;
+    height: 19px;
+
+}
+
+.loginstuff  a{
+    text-decoration: none;
+    display: inline-flexbox;
+    color: black;
+    
+}
+.loginstuff b{
+    vertical-align:7px;
+}
+.loginstuff i{
+    vertical-align:0px;
+    color: #727479;
+
+}
+.loginstuff button{
+    font-size:19px;
+    border-radius: 30px;
+    vertical-align: 3px;
+    cursor: pointer;
+    border:0.5px thin
+}
+.link{
+    border-radius: 30%;
+    border-width: 0.5px solid;
+}
+.btn-group .vr{
+    height:1.5em;
+    position: relative;
+    bottom: -6px;
+}
+.btn-group{
+    margin-left: 200px;
+}
+.btn-group .just{
+    position: relative;
+    bottom:-3px;
+    font-weight: 100;
+}
+.just{
+    padding-top:12px ;
+   padding-left: 4px;
+}
+.just img{
+    border-radius: 17px;
+    transform: translateY(-23px);
+    
+}
+nav{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #1b1b1b;
+    width:400px;
+    line-height: 40px;
+    padding: 8px 25px;
+}
+nav label{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    display: block;
+    cursor: pointer;
+}
+.button img{
+    float: right;
+    line-height: 35px;
+}
+nav ul{
+    position: absolute;
+    background: #1b1b1b;
+    list-style: none;
+    top:70px;
+    left: 0;
+    width: 100%;
+    border-radius: 5px;
+    display:block;
+}
+ .p1{
+     transform: translateY(69px);
+     
+    
+     
+}
+.p2{
+   
+    transform: translateY(26px);
+    margin-left: 147px;
+}
+.p3{
+    transform: translateY(-32px);
+    margin-left: 172px;
+}
+.btlog{
+    border-radius: 30px;
+}
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.p10{
+    transform: translateX(77px);
+    margin-top: -25px;
+}
+.p11{
+    transform: translateY(-32px);
+    margin-left: 25px;
+}
+.p12{
+    transform: translate(397px);
+    margin-top: -86px;
+}
+.transl{
+    height: 75px;
+    border-radius: 16px;
+    background-color: #ccced1;
+}
+.p13{
+    transform: translate(30px);
+    margin-top: -6px;
+}
+.custom-grid {
+    
+}
+
+  
+  .custom-grid :hover{
+    border: 0.5px solid black;
+    cursor: pointer;
+    box-shadow: none;
+  }
+ 

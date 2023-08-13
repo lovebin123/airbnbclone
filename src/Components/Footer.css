@@ -1,0 +1,32 @@
+.foot{
+   
+    position: sticky;
+    top: 0;
+    text-align: center;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    
+}
+.foot-container{
+  position: sticky;
+  bottom: 1rem;
+  align-self: flex-end;
+}
+.btn1{
+    position: sticky;
+    background-color: rgb(70, 68, 68);
+    border-radius: 40px;
+    margin-top: 20px;
+    width: 130px;
+    height: 55px;
+   color: rgb(255, 255, 255);
+}
+.p7{
+  transform: translateY(10px);
+  margin-left: 10px;
+
+}
+.p8{
+    margin-top: -31px;transform: translate(13px);
+}

@@ -1,0 +1,57 @@
+body{
+  overflow-x: hidden;
+}
+
+
+.slick-dots {
+    display: block;
+    text-align: center;
+  }
+  
+  .slick-dots li {
+    display: inline-block;
+    margin: 0 1.2px;
+  }
+  
+  .slick-dots li button {
+    font-size: 1.2px;
+    color: #fff;
+    border: none;
+    background: #bbb;
+    border-radius: 50%;
+    width: 3px;
+    height: 3px;
+    cursor: pointer;
+    
+  }
+  .slick-dots {
+    position: absolute;
+    bottom: 1px; /* Adjust this value to move the dots up */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+  .slick-dots li.slick-active button {
+    background: #fffefe;
+  }
+
+  
+
+ .grid .slick-prev,
+.grid .slick-next {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+.grid:hover .slick-prev,
+.grid:hover .slick-next {
+    opacity: 0.5;
+}
+.grid img{
+border-radius: 8px;
+position: relative;
+  height: 220px;
+ width:350px;
+
+}
