@@ -16,3 +16,6 @@
 .btn i:hover{
     cursor: pointer;
 }
+.hrt{
+    cursor: default;
+}
