@@ -10,7 +10,7 @@ function Heart() {
 
   return (
     <div className='hrt'>
-      <Button onClick={handleHeartClick} id='btnh2' className='btn'>
+      <Button disableRipple={true} onClick={handleHeartClick} id='btnh2' className='btn'>
         <i className='fas fa-heart fa-lg' style={{ color: heartColor }}></i>
       </Button>
     </div>
