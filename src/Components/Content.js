@@ -17,11 +17,11 @@ function SimpleSlider() {
     cssEase: 'ease',
   };
     return (
-  <div className="container">
+  <div className="container-fluid">
    
     
-   <div class="grid grid-cols-5 gap-5">
-   <div>
+   <div class="grid grid-cols-6  gap-5 ">
+   <div className="ab">
        <Slider {...settings}>
         
                 <img id="slide-1" src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-584469386220279136/original/227d4c26-43d5-42da-ad84-d039515c0bad.jpeg?im_w=720"></img>
@@ -38,7 +38,7 @@ function SimpleSlider() {
     </Slider><br></br>
     <b>Salobrena,Spain </b>&nbsp;&nbsp;&nbsp;&nbsp;★4.75(12)<Heart></Heart><br></br>Villa del Acantilado<br></br>4 beds<br></br>Mountain and sea views<br></br><b>₹2,11,643</b>night 
   </div>
-   <div>
+   <div className="ab">
     <Slider {...settings}>
     <img src="https://a0.muscache.com/im/pictures/miso/Hosting-51240398/original/fe5f02fd-d859-4e6e-a061-9aa56330ef38.jpeg?im_w=720"></img>
     <img src="https://a0.muscache.com/im/pictures/miso/Hosting-51240398/original/dc343c3a-81d1-4617-8962-32e95f9030ca.jpeg?im_w=720"></img>
@@ -50,7 +50,7 @@ function SimpleSlider() {
     <br></br>
     <b>Fahrani,Switzerland</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★4.43(53)<Heart></Heart><br></br>Star-Suite bei Thun mit Blick auf die Alpenkette<br></br>1 queen bed<br></br>Mountain and garden views<br></br><b>₹29,029</b> night
    </div>
-  <div>
+  <div className="ab">
     <Slider {...settings}>
         <img src="https://a0.muscache.com/im/pictures/miso/Hosting-13903824/original/82d996fb-d7c4-46a8-a713-febd281cd69f.jpeg?im_w=720"></img>
         <img src="https://a0.muscache.com/im/pictures/miso/Hosting-13903824/original/b0f5f933-1f0b-4f89-b6e6-7b0c2f4dfacd.jpeg?im_w=720"></img>
@@ -59,7 +59,7 @@ function SimpleSlider() {
     </Slider>
     <br></br><b>Torino,Italy</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★4.87<Heart></Heart><br></br>Stay with Carmela,Hosting for 7 years<br></br>1-6 Aug<br></br><b>₹4,234 night</b>
 </div>
-<div>
+<div className="ab">
     <Slider {...settings}>
         <img src="https://a0.muscache.com/im/pictures/miso/Hosting-668146487515150072/original/8ff2a532-e0cd-41a2-9164-554c4d9eb28a.jpeg?im_w=720"></img>
         <img src="https://a0.muscache.com/im/pictures/miso/Hosting-668146487515150072/original/7da9fd6a-8d6c-4954-88b0-1fc52abc9cfd.jpeg?im_w=720"></img>
@@ -68,7 +68,7 @@ function SimpleSlider() {
         </Slider>
         <br></br><b>Nantes,France</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★4.96<Heart></Heart><br></br>Stay with Golwen <br></br>2-7 Sep <br></br><b>₹7,450</b>
     </div>
-   <div>
+   <div className="ab">
   
     <Slider {...settings}>
         <img src="https://a0.muscache.com/im/pictures/airflow/Hosting-1112254/original/e6bed0e6-6190-4119-bd80-d12d369cea19.jpg?im_w=720"></img>
@@ -80,7 +80,7 @@ function SimpleSlider() {
    
     <br></br><b>Palermo,Italy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★4.83<Heart></Heart></b><br></br>Stay with Gandolfo Gabriele Artist<br></br>1-6 Aug<br></br>₹10,399 night
 </div>
-<div>
+<div className="ab">
   
   <Slider {...settings}>
     <img src="https://a0.muscache.com/im/pictures/miso/Hosting-45076629/original/0d4e80ac-b1b4-44d1-ab2f-10c67c1e8e2a.jpeg?im_w=720"></img>
@@ -90,7 +90,7 @@ function SimpleSlider() {
     </Slider>
     <br></br><b>Zanzibar,Tanzania<Heart></Heart></b><br></br>Stay with Oliver<br></br>1-6 Aug<br></br><b>₹12,210</b> night
 </div>
-<div>
+<div className="ab">
   
   <Slider {...settings}>
     <img src="https://a0.muscache.com/im/pictures/miso/Hosting-907467321069857452/original/7de13316-8013-4621-bfba-bb676491a79e.jpeg?im_w=720"></img>
@@ -101,7 +101,7 @@ function SimpleSlider() {
   </Slider>
   <br></br><b>Seogwipo-si,South Korea</b>&nbsp;&nbsp;&nbsp;&nbsp;★New<Heart></Heart><br></br>Stay with Carl<br></br>3-8 Sep<br></br><b>₹2,950</b>night
 </div>
-<div>
+<div className="ab">
 <Slider {...settings}>
   <img src="https://a0.muscache.com/im/pictures/miso/Hosting-792742639858876908/original/bdf7942e-2c10-4acd-b653-820b9ed4dae5.jpeg?im_w=720"></img>
   <img src="https://a0.muscache.com/im/pictures/miso/Hosting-757096670950759113/original/1aec33de-3097-4fb4-aa7c-f549f63633ca.jpeg?im_w=720"></img>
@@ -110,7 +110,7 @@ function SimpleSlider() {
   </Slider>
   <br></br><b>London,UK</b> &nbsp;&nbsp;&nbsp;&nbsp;★5.0<Heart></Heart><br></br>Stay with Gemma.Hosting for 7 years<br></br>7-14 Oct<br></br><b>₹6,297</b> night
   </div>
-  <div>
+  <div className="ab">
 <Slider {...settings}>
 <img src="https://a0.muscache.com/im/pictures/miso/Hosting-633066598262702361/original/93eebed7-db1d-4029-9f6e-1fb8ad1d45d4.jpeg?im_w=720"></img>
 <img src="https://a0.muscache.com/im/pictures/miso/Hosting-633066598262702361/original/c1c7ffb7-8b2d-4947-a2cb-bb3c788f3d22.jpeg?im_w=720"></img>
@@ -121,7 +121,7 @@ function SimpleSlider() {
 </Slider>
 <br></br><b>Uccle,Belgium<Heart></Heart></b><br></br>Stay with Marianne<br></br>17-22 Sep<br></br><b>₹2,820</b> night 
 </div>
-<div>
+<div className="ab">
 <Slider {...settings}>
   <img src="https://a0.muscache.com/im/pictures/b8f7b947-48c7-4659-914c-b2abe683ef3c.jpg?im_w=720"></img>
   <img src="https://a0.muscache.com/im/pictures/4995e41a-917d-42c0-a893-b9af5889e745.jpg?im_w=720"></img>
@@ -131,7 +131,7 @@ function SimpleSlider() {
 </Slider>
 <br></br><b>Lisbon,Portugal</b><Heart></Heart><br></br>Stay with Alexey,Fashion<br></br>27 Aug-2 Sep<br></br><b>₹10,729</b> night 
 </div>
-<div>
+<div className="ab">
 <Slider {...settings}>
 <img src="https://a0.muscache.com/im/pictures/airflow/Hosting-33677783/original/e246df5f-1425-4eb4-b148-5b65da7e3f0a.jpg?im_w=720"></img>
 <img src="https://a0.muscache.com/im/pictures/airflow/Hosting-33677783/original/c008ec31-1cc0-46e1-9c5d-7279ffd29ff6.jpg?im_w=720"></img>
@@ -141,7 +141,7 @@ function SimpleSlider() {
 </Slider>
 <br></br><b>Nariz,Portugal</b>&nbsp;&nbsp;&nbsp;&nbsp;★5.0<Heart></Heart><br></br>Stay with Lisa .Agriculture <br></br>7-12 Sep <br></br><b>₹4,998</b> night
 </div>
-<div>
+<div className="ab">
 <Slider {...settings}>
 <img src="https://a0.muscache.com/im/pictures/miso/Hosting-633832971934737080/original/78eab92d-5513-4a86-b03d-2f8e24c4ceef.jpeg?im_w=720"></img>
 <img src="https://a0.muscache.com/im/pictures/miso/Hosting-633832971934737080/original/bd33094e-ab90-48ff-ae6c-42d2bbd74d46.jpeg?im_w=720"></img>
@@ -152,7 +152,7 @@ function SimpleSlider() {
 </Slider>
 <br></br><b>Kullu,India<Heart></Heart></b><br></br>Stay with Aditya .Hospitality<br></br>1-8 Aug<br></br><b>₹6,439</b> night
 </div>
-<div>
+<div className="ab">
   <Slider {...settings}>
   <img src="https://a0.muscache.com/im/pictures/14566590/e9d35946_original.jpg?im_w=720"></img>
   <img src="https://a0.muscache.com/im/pictures/f2021635-ca64-4ea2-a6ff-4d6bc21410b5.jpg?im_w=720"></img>
@@ -162,7 +162,7 @@ function SimpleSlider() {
 </Slider>
 <br></br><b>Redfern,Australia</b>&nbsp;&nbsp;&nbsp;&nbsp;★4.89<Heart></Heart><br></br>Stay with Spencer .Travel and tourism<br></br>27 Oct -1Nov<br></br><b>₹6,853</b> night
 </div>
-<div>
+<div className="ab">
 <Slider {...settings}>
 <img src="https://a0.muscache.com/im/pictures/miso/Hosting-17780620/original/3ddc21b4-9a03-46cd-b1c9-409ebc327d35.jpeg?im_w=720"></img>
 <img src="https://a0.muscache.com/im/pictures/miso/Hosting-17780620/original/3b72652a-2d55-4f57-baa5-4abbd60de003.jpeg?im_w=720"></img>
@@ -172,7 +172,7 @@ function SimpleSlider() {
 </Slider>
 <br></br><b>Forest Lodge,Australia</b>&nbsp;&nbsp;&nbsp;&nbsp;★4.88<Heart></Heart><br></br> Stay withSkype .Advertising producer<br></br>2-7 Sep <br></br><b>₹6,962</b> night
 </div>
-<div>
+<div className="ab">
 <Slider {...settings}>
   <img src="https://a0.muscache.com/im/pictures/910bf7b6-6922-44da-9395-4c793d0044b5.jpg?im_w=720"></img>
   <img src="https://a0.muscache.com/im/pictures/b0fdf5d3-1b33-4390-9110-6fdb84901110.jpg?im_w=720"></img>
@@ -182,7 +182,7 @@ function SimpleSlider() {
 </Slider>
 <br></br><b>Bingin Beach,Indonasia</b>&nbsp;&nbsp;&nbsp;&nbsp;★4.95<Heart></Heart><br></br>4,784 kilometers away<br></br>26-31 Aug<br></br><b>₹37,673</b> night
 </div>
-<div>
+<div className="ab">
 <Slider {...settings}>
 <img src="https://a0.muscache.com/im/pictures/miso/Hosting-53356466/original/f353fb80-0915-40ab-8032-6bc810ac273e.jpeg?im_w=720"></img>
 <img src="https://a0.muscache.com/im/pictures/miso/Hosting-53356466/original/80597541-a243-4938-b479-00995447f06c.jpeg?im_w=720"></img>
@@ -192,7 +192,7 @@ function SimpleSlider() {
 </Slider>
 <br></br><b>Predeal,Romania</b>&nbsp;&nbsp;&nbsp;&nbsp;★5.0<Heart></Heart><br></br>6,211 kilometers away<br></br>27 Aug -1 Sep<br></br><b>₹26,127</b> night
 </div>
-<div>
+<div className="ab">
 <Slider {...settings}>
 <img src="https://a0.muscache.com/im/pictures/337713b1-b875-4c13-9c69-f09ad8fe1e3e.jpg?im_w=720"></img>
 <img src="https://a0.muscache.com/im/pictures/a93a8050-2731-45af-968b-fe57fa0b192e.jpg?im_w=720"></img>
@@ -202,7 +202,7 @@ function SimpleSlider() {
 </Slider>
 <br></br><b>Kos,Greece</b>&nbsp;&nbsp;&nbsp;&nbsp;★5.0<Heart></Heart><br></br>5,737 kilometers away<br></br>26-31 Aug<br></br><b>₹18,651</b> night
 </div>
-<div>
+<div className="ab">
 <Slider {...settings}>
 <img src="https://a0.muscache.com/im/pictures/miso/Hosting-28254684/original/99bd44d1-abca-4b1c-b5da-eb05eaac9193.jpeg?im_w=720"></img>
 <img src="https://a0.muscache.com/im/pictures/b5f7057b-32d4-4d15-a7bf-5e95b647a8d2.jpg?im_w=720"></img>
@@ -212,7 +212,7 @@ function SimpleSlider() {
 </Slider>
 <br></br><b>Austin,Texas US</b>&nbsp;&nbsp;&nbsp;&nbsp;★4.92<Heart></Heart><br></br>15,490 kilometers away<br></br>25-30 Aug<br></br><b>₹51,835</b> night
 </div>
-<div>
+<div className="ab">
 <Slider {...settings}>
   <img src="https://a0.muscache.com/im/pictures/b565e05e-beb5-4643-a76a-0f80a89d0ec9.jpg?im_w=720"></img>
   <img src="https://a0.muscache.com/im/pictures/2122b1af-5ae2-40df-b832-9c35728b5cae.jpg?im_w=720"></img>
@@ -222,7 +222,7 @@ function SimpleSlider() {
 </Slider>
 <br></br><b>Panchgani,India</b>&nbsp;&nbsp;&nbsp;&nbsp;★4.91<Heart></Heart><br></br>922 kilometers away<br></br>6-11 Aug<br></br><b>₹32,000</b> night
 </div>
-<div>
+<div className="ab">
 <Slider {...settings}>
   <img src="https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/4ee10ddd-a741-4cd1-bf5d-e5955f6072ff.jpeg?im_w=720"></img>
   <img src="https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/f4d43f95-7293-4891-b98f-2c8eba87c7ad.jpeg?im_w=720"></img>
