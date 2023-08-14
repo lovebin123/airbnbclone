@@ -44,9 +44,9 @@ body{
 }
 
 
-.grid:hover .slick-prev,
-.grid:hover .slick-next {
-    opacity: 0.3;
+.ab:hover .slick-prev,
+.ab:hover .slick-next {
+    opacity: 0.5;
 }
 .grid img{
 border-radius: 20px;
