@@ -16,11 +16,12 @@ function SimpleSlider() {
     slidesToScroll: 1,
     cssEase: 'ease',
   };
+  
     return (
   <div className="container-fluid">
    
     
-   <div class="grid grid-cols-6  gap-12 ">
+   <div class="grid grid-cols-6  gap-9 ">
    <div className="ab">
        <Slider {...settings}>
         

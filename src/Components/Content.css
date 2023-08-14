@@ -46,17 +46,17 @@ body{
 
 .grid:hover .slick-prev,
 .grid:hover .slick-next {
-    opacity: 0.5;
+    opacity: 0.3;
 }
 .grid img{
-border-radius: 8px;
+border-radius: 20px;
 position: relative;
-  height: 220px;
+  height: 255px;
  width:350px;
 
 }
 .ab{
-  padding: 13px;
+  padding: 5px;
   
  
 }
