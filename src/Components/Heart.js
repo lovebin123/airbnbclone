@@ -2,10 +2,10 @@ import { Button } from '@mui/material';
 import React, { useState } from 'react';
 import './Heart.css'
 function Heart() {
-  const [heartColor, setHeartColor] = useState('grey');
+  const [heartColor, setHeartColor] = useState('black');
 
   const handleHeartClick = () => {
-    setHeartColor(heartColor === 'red' ? 'grey' : 'red');
+    setHeartColor(heartColor === 'red' ? 'black' : 'red');
   };
 
   return (

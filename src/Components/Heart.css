@@ -1,21 +1,26 @@
 .btn{
     background: transparent;
     border: none;
-
+  
     margin: 3%;
             position: relative;
     position: sticky;
     background-color: green;   
     transition: 0.5s ease;   
-    
+    transform: translateY(-305px);
      outline: none;
-     color: grey;
-     left: 180px;
+     color: rgb(248, 244, 244);
+     left: 220px;
      top:13px;
 }
 .btn i:hover{
     cursor: pointer;
 }
-.hrt{
-    cursor: default;
+
+.btn:focus{
+    outline: none;
+    box-shadow: 0 0 0px 0px;
+}
+.btn:active{
+    border-style: outset;
 }
