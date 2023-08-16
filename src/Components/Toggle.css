@@ -39,7 +39,7 @@ input[type=checkbox]{
 
 label {
   cursor: pointer;
-  text-indent: -5000px;
+  text-indent: -9999px;
   width: 40px;
   height: 25px;
   background: grey;
@@ -53,7 +53,7 @@ label:after {
   position: absolute;
   top: 3px;
   
-  left: 5px;
+  left: 3px;
   width: 20px;
   height: 20px;
   background: #fff;
@@ -67,13 +67,13 @@ input:checked + label {
 }
 
 input:checked + label:after {
-  left: calc(100% - 10px);
-  transform: translateX(-70%);
-  content: '✓';
+  left: calc(100% - 11px);
+  transform: translateX(-50%);
+
 }
 
 label:active:after {
-  width: 130px;
+  width: 20px;
 }
 .toggler .vr{
   height:1.5em;
