@@ -14,15 +14,14 @@
 .box {
     width: 100px;
     height:100px;
-    background-color: #f6f6f6;
+   
    text-align:justify;
    line-height: 6px;
   } 
   .box1 {
     width: 100px;
     height:100px;
-    background-color: #f6f6f6;
-   text-align:center;
+       text-align:center;
    line-height: 6px;
   } 
 .box img{
@@ -111,8 +110,7 @@
   .box4 {
     width: 90px;
     height:100px;
-    background-color: #f6f6f6;
-   text-align:justify;
+       text-align:justify;
    line-height: 6px;
   } 
   .box4 a {

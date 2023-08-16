@@ -233,9 +233,49 @@ function SimpleSlider() {
 </Slider>
 <br></br><b>Tornio,Finland</b>&nbsp;&nbsp;&nbsp;&nbsp;★4.91<Heart></Heart><br></br>7,353 kilometers away<br></br>7-12 Aug<br></br><b>₹9,324</b> night
 </div>
+<div className="ab">
+<Slider {...settings}>
+ <img src="https://a0.muscache.com/im/pictures/78b21a3a-0cf0-4d43-89ae-71d8892b07f8.jpg?im_w=720"></img>
+  <img src="https://a0.muscache.com/im/pictures/f8463ef1-127d-4fe9-9a51-01bb6c3dca85.jpg?im_w=720"></img>
+  <img src="https://a0.muscache.com/im/pictures/692117cb-9abe-429e-8546-7fff49a0bd1c.jpg?im_w=720"></img>
+  <img src="https://a0.muscache.com/im/pictures/88377c6b-c1f4-4660-9aaf-80685c1a3462.jpg?im_w=720"></img>
+  <img src="https://a0.muscache.com/im/pictures/2a9cd5f2-9f28-4ed2-a3ea-fb1f2dac1179.jpg?im_w=720"></img>
+</Slider>
+<br></br><b>Koh Samui,Thailand</b><Heart></Heart><br></br>3,113 kilometers away<br></br>17-23 Aug<br></br><b>₹2,28,279</b> night
+</div>
+<div className="ab">
+<Slider {...settings}>
+ <img src="https://a0.muscache.com/im/pictures/miso/Hosting-860658802227742213/original/0bba3753-fabc-4504-9a6a-8f5fad335921.jpeg?im_w=720"></img>
+  <img src="https://a0.muscache.com/im/pictures/miso/Hosting-860658802227742213/original/e8113fb8-5345-49e2-8945-af0b4768c660.jpeg?im_w=720"></img>
+  <img src="https://a0.muscache.com/im/pictures/miso/Hosting-860658802227742213/original/239695d9-87fb-478e-9461-323a5b1587f1.jpeg?im_w=720"></img>
+  <img src="https://a0.muscache.com/im/pictures/miso/Hosting-860658802227742213/original/dfeaec69-0b42-413c-8d3d-98517286ba9b.jpeg?im_w=720"></img>
+  <img src="https://a0.muscache.com/im/pictures/miso/Hosting-860658802227742213/original/026a90fb-f9c7-4b58-b02c-10ca1afcb805.jpeg?im_w=720"></img>
+</Slider>
+<br></br><b>Kos,Greece</b>&nbsp;&nbsp;&nbsp;&nbsp;★4.67<Heart></Heart><br></br>4,842 kilometers away<br></br>20-26 Oct<br></br><b>₹8,865</b> night
+</div>
+<div className="ab">
+<Slider {...settings}>
+ <img src="https://a0.muscache.com/im/pictures/52f6081b-263f-4c78-931c-e028570ddb68.jpg?im_w=720"></img>
+  <img src="https://a0.muscache.com/im/pictures/328e1ee9-4064-42e0-88d1-8a4ade95c165.jpg?im_w=720"></img>
+  <img src="https://a0.muscache.com/im/pictures/38ec4cb2-8e88-4291-975c-4292856f2c22.jpg?im_w=720"></img>
+  <img src="https://a0.muscache.com/im/pictures/a10a0673-9ff4-4d00-8c73-c32a019a49c5.jpg?im_w=720"></img>
+  <img src="https://a0.muscache.com/im/pictures/f1bca2ab-7d5a-4650-9d1f-ce711afe9eac.jpg?im_w=720"></img>
+</Slider>
+<br></br><b>Rhodes,Greece</b>&nbsp;&nbsp;&nbsp;&nbsp;★5.0<Heart></Heart><br></br>4,775 kilometers away<br></br>20-26 Nov<br></br><b>₹35,287</b> night
+</div>
+<div className="ab">
+<Slider {...settings}>
+ <img src="https://a0.muscache.com/im/pictures/520716fd-c157-45e6-9461-8e3a2fb99dae.jpg?im_w=720"></img>
+  <img src="https://a0.muscache.com/im/pictures/a2e3a319-81d5-4804-bc9e-22d7ff3a4e84.jpg?im_w=720"></img>
+  <img src="https://a0.muscache.com/im/pictures/df48084d-b097-4334-a8f3-f5dc1de5585e.jpg?im_w=720"></img>
+  <img src="https://a0.muscache.com/im/pictures/b62fc683-a0d2-4732-9005-52d1123f9082.jpg?im_w=720"></img>
+  <img src="https://a0.muscache.com/im/pictures/8431b306-22c5-4e6f-9114-bede3c88056c.jpg?im_w=720"></img>
+</Slider>
+<br></br><b>Iglesias,Italy</b>&nbsp;&nbsp;&nbsp;&nbsp;★4.87<Heart></Heart><br></br>6,495 kilometers away<br></br>24-29 Aug<br></br><b>₹3,89g,860</b> night
+</div>
 
 </div>
-<ScrollToTop smooth />
+
       </div>
 
 
