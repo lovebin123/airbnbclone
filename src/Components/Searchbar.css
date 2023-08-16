@@ -204,4 +204,40 @@ body.active-modal {
     cursor: pointer;
     box-shadow: none;
   }
- 
+ .custom-switch.ant-switch-checked {
+  background-color: black; /* Change the background color to black */
+}
+
+/* Custom style for the thumb (toggled element) */
+.custom-switch.ant-switch-checked:hover {
+  background-color: #050505; /* Change the thumb background color */
+}
+.ant-switch:focus {
+    outline: none; 
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2); /* Add a box shadow to simulate a persistent border */
+  }
+  .ant-switch-checked:focus{
+    background-color: black;
+  }
+  .ant-switch-checked {
+    background-color: black; /* Set the background color of the non-hovered checked state */
+  }
+
+
+  .ant-switch:hover .ant-switch-handle::before,
+.ant-switch:hover .ant-switch-handle::after {
+  background-color: gray !important;
+  box-shadow:black!important;
+}
+@media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }

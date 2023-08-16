@@ -50,7 +50,7 @@ function Searchbar() {
       </div>
       <div class="modal-body">
     <div className='transl'>
-     <p className='p13'> Translation<p className='p10'><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/google-translate.png" alt="google-translate"/></p></p><br/><p className='p11'>Automatically translate descriptions and reviews</p><p className='p12'> <Switch size='large' defaultChecked={true}  /></p>
+     <p className='p13'> Translation<p className='p10'><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/google-translate.png" alt="google-translate"/></p></p><br/><p className='p11'>Automatically translate descriptions and reviews</p><p className='p12'> <Switch size='large' defaultChecked={true} className="custom-switch" /></p>
      </div>
      <h4>Choose a language and region</h4><br></br>
      <Grid  container rowSpacing={3} columnSpacing={{ xs: 2, sm: 2, md: 3 }} >
