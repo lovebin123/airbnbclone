@@ -10,8 +10,8 @@
     transform: translateY(-305px);
      outline: none;
      color: rgb(248, 244, 244);
-     left: 220px;
-     top:13px;
+     left: 13.75rem;
+     top:0.813rem;
 }
 .btn i:hover{
     cursor: pointer;
@@ -19,17 +19,8 @@
 
 .btn:focus{
     outline: none;
-    box-shadow: 0 0 0px 0px;
+    box-shadow: 0 0 0rem 0rem;
 }
 .btn:active{
     border-style: outset;
 }
-.column {
-    width: 100%;
-  }
-  
-  @media (min-width: 600px) {
-    .column {
-      width: 50%;
-    }
-  }

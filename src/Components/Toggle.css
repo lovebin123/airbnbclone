@@ -1,11 +1,11 @@
 .toggle{
   width:50%;
-  transform: translateY(-13px);
-  margin-left: 40px;
+  transform: translateY(-0.813rem);
+  margin-left: 60px;
 }
 
 .toggle-wrapper{
-  display: flex;
+  display: flexbox;
   justify-content: center;
   align-items: center;
 
@@ -24,11 +24,11 @@
 .toggler{
   position: relative;
   top:0.75rem;
-  left: -5.625rem;
+  left: 53px;
 }
 .toggler1{
   position: relative;
-  right: -32.938rem;
+  right: -400px;
   top: -2.25rem;
   
 }

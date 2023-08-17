@@ -11,33 +11,33 @@
     align-items: center;
     width: 100%;
     
-   height:80px;
-    margin: 5px auto 0 auto;
+   height:5rem;
+    margin: 0.313rem auto 0 auto;
     background-color:rgb(231, 227, 227);
   
     
 }
 .headervideo {
     position:absolute;
-    left: 1500px;
+    left: 93.75rem;
     top: 1000x;
    float: right;
-   padding-left: 20px;
-   margin-top: 20px;
+   padding-left: 1.25rem;
+   margin-top: 1.25rem;
    
   
   }
    
   .headervideo:after {
     content:url("https://www.wonderplugin.com/download/playbutton.png");
-    size: 1px;
+    size: 0.063rem;
     z-index:999;
     position:absolute;
     top:41%;
     
     left:139%;
-    margin-left:-133px;
-    margin-top:-32px;
+    margin-left:-8.313rem;
+    margin-top:-2rem;
     opacity:0.8;
   }
    
@@ -49,9 +49,9 @@
   }
    
   .headervideo img {
-    width: 100px;
-    right: 1600px;
-    top: 1500px;
+    width: 6.25rem;
+    right: 100rem;
+    top: 93.75rem;
     border-radius: 30%;
     
   }
@@ -64,18 +64,7 @@
     
   }
   .header-wrapper p{
-    transform: translateX(-55px);
-    margin-top: 20px;
-  }
-  @media screen and (max-width: 992px) {
-    .column {
-      width: 50%;
-    }
+    transform: translateX(-3.438rem);
+    margin-top: 1.25rem;
   }
   
-  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
