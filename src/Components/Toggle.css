@@ -1,6 +1,7 @@
 .toggle{
-  max-width: 62.5rem;
-  width:100%;
+  width:50%;
+  transform: translateY(-13px);
+  margin-left: 42px;
 }
 
 .toggle-wrapper{

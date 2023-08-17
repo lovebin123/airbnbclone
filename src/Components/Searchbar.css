@@ -1,5 +1,4 @@
 .searchbar-container{
-    max-width: 1000px;
     width:100%;
     
    
@@ -8,9 +7,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 200%;
-    max-width: 2000px;
+    width: 100%;
     margin: 5px auto 0 auto;
+    transform: translateX(-4px);
     
   
 }
@@ -57,7 +56,7 @@
 }
 
 .loginstuff{
-    margin-right: 190px;
+    margin-right: 70px;
     
 }
 .loginstuff a img{

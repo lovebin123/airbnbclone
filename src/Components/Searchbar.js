@@ -39,7 +39,15 @@ function Searchbar() {
               <p className='p2'><button type='button' data-bs-toggle="modal" data-bs-target="#language"><img width="18" height="18" src="https://img.icons8.com/ios-glyphs/30/geography.png" alt="geography"/></button>
             
               </p>
-              <div class="modal fade" id="language" tabindex="-1" role="dialog" aria-labelledby="languageModalCenterTitle" aria-hidden="true">
+         <p className='p3'>
+             <button type="button" className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-3 px-3 border border-gray-400 rounded shadow" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-circle-user" style={{color: '#727479;'}}></i>  Login
+
+</button>
+</p>  </div>
+
+            </div> 
+            <div class="modal fade" id="language" tabindex="-1" role="dialog" aria-labelledby="languageModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -207,14 +215,6 @@ function Searchbar() {
     </div>
   </div>
 </div>
-             <p className='p3'>
-             <button type="button" className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-3 px-3 border border-gray-400 rounded shadow" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <i class="fa-solid fa-circle-user" style={{color: '#727479;'}}></i>  Login
-
-</button>
-</p>  </div>
-
-            </div> 
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 <div class="modal-dialog modal-dialog-scrollable modal-md">
 
