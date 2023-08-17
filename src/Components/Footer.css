@@ -16,19 +16,19 @@
 .btn1{
     position: sticky;
     background-color: rgb(70, 68, 68);
-    border-radius: 40px;
-    margin-top: 20px;
-    width: 130px;
-    height: 55px;
+    border-radius: 2.5rem;
+    margin-top:1.25rem;
+    width: 8.125rem;
+    height:3.438rem;
    color: rgb(255, 255, 255);
 }
 .p7{
   transform: translateY(10px);
-  margin-left: 10px;
+  margin-left: 0.625rem;
 
 }
 .p8{
-    margin-top: -31px;transform: translate(13px);
+    margin-top: -1.938rem;transform: translate(0.813rem);
 }
 .column {
   width: 100%;

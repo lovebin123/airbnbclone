@@ -1,5 +1,5 @@
 .toggle{
-  max-width: 1000px;
+  max-width: 62.5rem;
   width:100%;
 }
 
@@ -10,25 +10,25 @@
 
   width: 70%;
   height: 50%;
-  max-width: 1000px;
-  margin: 73px auto 0 auto;
+  max-width: 62.5rem;
+  margin: 4.563rem auto 0 auto;
    position: relative;
-   right: -420px;
-   top:-30px;
-   border:1px solid black;
-   border-radius:11px;
+   right: -26.25rem;
+   top:-1.875rem;
+   border:0.063rem solid black;
+   border-radius:0.688rem;
    
   
 }
 .toggler{
   position: relative;
-  top:12px;
-  left: -90px;
+  top:0.75rem;
+  left: -5.625rem;
 }
 .toggler1{
   position: relative;
-  right: -527px;
-  top: -36px;
+  right: -32.938rem;
+  top: -2.25rem;
   
 }
 input[type=checkbox]{
@@ -39,12 +39,12 @@ input[type=checkbox]{
 
 label {
   cursor: pointer;
-  text-indent: -9999px;
-  width: 40px;
-  height: 25px;
+  text-indent:-624.938rem;
+  width: 2.5rem;
+  height: 1.563rem;
   background: grey;
   display: block;
-  border-radius: 100px;
+  border-radius: 6.25rem;
   position: relative;
 }
 
@@ -53,11 +53,11 @@ label:after {
   position: absolute;
   top: 3.5px;
   
-  left: 3px;
-  width: 20px;
-  height: 20px;
+  left: 0.219rem;
+  width:1.25rem;
+  height:1.25rem;
   background: #fff;
-  border-radius: 90px;
+  border-radius: 5.625rem;
   transition: 0.3s;
 }
 
@@ -67,18 +67,18 @@ input:checked + label {
 }
 
 input:checked + label:after {
-  left: calc(100% - 11px);
+  left: calc(100% - 0.688rem);
   transform: translateX(-50%);
 
 }
 
 label:active:after {
-  width: 20px;
+  width: 1.25rem;
 }
 .toggler .vr{
   height:1.5em;
   position: relative;
-  bottom: -6px;
+  bottom: -0.375rem;
 }
 .column {
   width: 100%;
