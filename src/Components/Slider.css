@@ -1,26 +1,28 @@
 .slider-container{
  
-  width:77%;
-  height: 100%;
+  width:70vw;
+  height: 15vh;
   
 }
 .slider-wrapper{
 
   position:relative ;
  bottom: -45px;
- right: -195px;
+ width:75vw;
+ right: -12vw;
 
 }
 .box {
-    width: 100px;
-    height:100px;
+    width: 100vw;
+    height:5vh;
    
    text-align:justify;
    line-height: 6px;
   } 
   .box1 {
-    width: 100px;
-    height:100px;
+    width: 100vw;
+    height:5vh;
+   
        text-align:center;
    line-height: 6px;
   } 
@@ -144,8 +146,9 @@
 }
 .filter{
   position: relative;
-  right: -1700px;
-  bottom: 40px;
+float: right;
+transform: translateX(26vw);
+  bottom: 5.5vh;
   
 }
 .filter p{

@@ -49,13 +49,13 @@ body{
     opacity: 0.5;
 }
 .grid img{
-border-radius: 1.25rem;
+border-radius: 1.042vw;
 position: relative;
-  height: 15.938rem;
- width:21.875rem;
+  height: 28vh;
+
 }
 .ab{
-  padding: 0.313rem;
+  padding: 0.01vw;
   
  
 }

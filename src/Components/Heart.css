@@ -1,16 +1,14 @@
 .btn{
     background: transparent;
     border: none;
-  
-    margin: 3%;
-            position: relative;
+    position: fixed;
     position: sticky;
     background-color: green;   
     transition: 0.5s ease; 
-    transform: translateY(-300px);  
+    transform: translateY(-32vh);  
      outline: none;
      color: rgb(248, 244, 244);
-     left: 220px;
+     float: right;
      
 }
 .btn i:hover{
