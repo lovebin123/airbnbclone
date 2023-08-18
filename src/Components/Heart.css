@@ -6,12 +6,12 @@
             position: relative;
     position: sticky;
     background-color: green;   
-    transition: 0.5s ease;   
-    transform: translateY(-305px);
+    transition: 0.5s ease; 
+    transform: translateY(-300px);  
      outline: none;
      color: rgb(248, 244, 244);
-     left: 13.75rem;
-     top:0.813rem;
+     left: 220px;
+     
 }
 .btn i:hover{
     cursor: pointer;
