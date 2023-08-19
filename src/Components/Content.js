@@ -23,22 +23,16 @@ function SimpleSlider() {
     
    <div class="grid grid-cols-6  gap-9 ">
    <div className="ab">
-       <Slider {...settings}>
-        
-                <img id="slide-1" src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-584469386220279136/original/227d4c26-43d5-42da-ad84-d039515c0bad.jpeg?im_w=720"></img>
-              
-                
-               <img id="slide-2" src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-584469386220279136/original/9de4848a-babd-4741-8ac0-2b246527ed36.jpeg?im_w=720"></img> 
-            
-             
-       <img id="slide-3" src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-584469386220279136/original/f265454d-7a6a-4940-809f-76e450a35012.jpeg?im_w=720"></img>
-       
-                <img id="slide-4" src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-584469386220279136/original/fc43fe58-2e6c-44e6-af3a-aa00d10d6ca3.jpeg?im_w=720"></img>
-                  
-        <img id="slide-5" src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-584469386220279136/original/2d006c9c-7ed5-4483-b154-e910d8649cd6.jpeg?im_w=720"></img>
-    </Slider><br></br>
-    <b>Salobrena,Spain </b>&nbsp;&nbsp;&nbsp;&nbsp;★4.75(12)<Heart></Heart><br></br>Villa del Acantilado<br></br>4 beds<br></br>Mountain and sea views<br></br><b>₹2,11,643</b>night 
-  </div>
+<Slider {...settings}>
+<img  src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-584469386220279136/original/227d4c26-43d5-42da-ad84-d039515c0bad.jpeg?im_w=720"></img>
+<img  src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-584469386220279136/original/9de4848a-babd-4741-8ac0-2b246527ed36.jpeg?im_w=720"></img> 
+<img  src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-584469386220279136/original/f265454d-7a6a-4940-809f-76e450a35012.jpeg?im_w=720"></img>
+<img src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-584469386220279136/original/fc43fe58-2e6c-44e6-af3a-aa00d10d6ca3.jpeg?im_w=720"></img>
+        <img src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-584469386220279136/original/2d006c9c-7ed5-4483-b154-e910d8649cd6.jpeg?im_w=720"></img>
+
+</Slider>
+<br></br><b>Iglesias,Italy</b>&nbsp;&nbsp;&nbsp;&nbsp;★4.87<Heart></Heart><br></br>6,495 kilometers away<br></br>24-29 Aug<br></br><b>₹3,89g,860</b> night
+</div>
    <div className="ab">
     <Slider {...settings}>
     <img src="https://a0.muscache.com/im/pictures/miso/Hosting-51240398/original/fe5f02fd-d859-4e6e-a061-9aa56330ef38.jpeg?im_w=720"></img>

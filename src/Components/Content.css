@@ -1,5 +1,9 @@
 body{
   overflow-x: hidden;
+  -webkit-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
 }
 
 
@@ -51,7 +55,7 @@ body{
 .grid img{
 border-radius: 1.042vw;
 position: relative;
-  height: 28vh;
+  height: 28vmin;
 
 }
 .ab{
