@@ -42,8 +42,8 @@ function SimpleSlider() {
     <img src="https://a0.muscache.com/im/pictures/miso/Hosting-51240398/original/b63d7600-e956-45e4-904d-4b83b72f7ce6.jpeg?im_w=720"></img>
 
     </Slider>
-    <br></br>
-    <b>Fahrani,Switzerland</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★4.43(53)<Heart></Heart><br></br>Star-Suite bei Thun mit Blick auf die Alpenkette<br></br>1 queen bed<br></br>Mountain and garden views<br></br><b>₹29,029</b> night
+    <br></br><b>Fahrani,Switzerland<Heart></Heart></b><br></br>Star-Suite bei Thun mit Blick auf die Alpenkette<br></br>1 queen bed<br></br>Mountain and garden views<br></br><b>₹29,029</b> night
+
    </div>
   <div className="ab">
     <Slider {...settings}>
@@ -86,16 +86,21 @@ function SimpleSlider() {
     <br></br><b>Zanzibar,Tanzania<Heart></Heart></b><br></br>Stay with Oliver<br></br>1-6 Aug<br></br><b>₹12,210</b> night
 </div>
 <div className="ab">
-  
-  <Slider {...settings}>
-    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-907467321069857452/original/7de13316-8013-4621-bfba-bb676491a79e.jpeg?im_w=720"></img>
-    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-907467321069857452/original/d96a2e22-d4ac-457a-89b0-f2bbb1c7151d.jpeg?im_w=720"></img>
-    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-907467321069857452/original/44ab3072-83f2-4e2a-a0a9-40c8a5882b40.jpeg?im_w=720"></img>
-    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-907467321069857452/original/dcdd7458-f366-4fcb-b46c-3586d1f0a9ba.jpeg?im_w=720"></img>
-    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-907467321069857452/original/683c40ff-ba91-4212-8164-c1b36912f33e.jpeg?im_w=720"></img>
-  </Slider>
-  <br></br><b>Seogwipo-si,South Korea</b>&nbsp;&nbsp;&nbsp;&nbsp;★New<Heart></Heart><br></br>Stay with Carl<br></br>3-8 Sep<br></br><b>₹2,950</b>night
+<Slider {...settings}>
+ <img src="https://a0.muscache.com/im/pictures/0f62ca25-4738-448a-8e99-d43e6a2ffdb8.jpg?im_w=720"></img>
+    <img src="https://a0.muscache.com/im/pictures/c8bf7a20-692c-4760-bef7-220e35f8810d.jpg?im_w=720"></img>
+    <img src="https://a0.muscache.com/im/pictures/5d261bfc-8c7a-4624-86b1-0a724d7cab59.jpg?im_w=720"></img>
+    <img src="https://a0.muscache.cohttps://a0.muscache.com/im/pictures/de89501d-3db2-4ced-9b9f-b932dc9aea62.jpg?im_w=720m/im/pictures/0a5db5b5-6c7e-4ecc-8d02-0e6b3b9bac5e.jpg?im_w=720"></img>
+    <img src="https://a0.muscache.com/im/pictures/de89501d-3db2-4ced-9b9f-b932dc9aea62.jpg?im_w=720"></img>
+
+
+</Slider>
+<br></br><b>Ooty,India<Heart></Heart></b><br></br>25km to Madumalai Tiger Reserve<br></br>3-8 Sep<br></br><b>₹30,356</b> night
+
 </div>
+
+
+
 <div className="ab">
 <Slider {...settings}>
   <img src="https://a0.muscache.com/im/pictures/miso/Hosting-792742639858876908/original/bdf7942e-2c10-4acd-b653-820b9ed4dae5.jpeg?im_w=720"></img>
@@ -165,7 +170,7 @@ function SimpleSlider() {
 <img src="https://a0.muscache.com/im/pictures/miso/Hosting-17780620/original/4857c445-5736-4629-9d6b-d8724f189f1a.jpeg?im_w=720"></img>
 <img src="https://a0.muscache.com/im/pictures/miso/Hosting-17780620/original/f4fe60dd-f9a9-41f1-b0dc-a582c03c6d49.jpeg?im_w=720"></img>
 </Slider>
-<br></br><b>Forest Lodge,Australia</b>&nbsp;&nbsp;&nbsp;&nbsp;★4.88<Heart></Heart><br></br> Stay withSkype .Advertising producer<br></br>2-7 Sep <br></br><b>₹6,962</b> night
+<br></br><b>Forest Lodge,Australia</b><Heart></Heart><br></br> Stay with Skype .Advertising producer<br></br>2-7 Sep <br></br><b>₹6,962</b> night
 </div>
 <div className="ab">
 <Slider {...settings}>
@@ -175,7 +180,7 @@ function SimpleSlider() {
   <img src="https://a0.muscache.com/im/pictures/22fbd007-ddf6-4d90-9984-66de983916aa.jpg?im_w=720"></img>
   <img src="https://a0.muscache.com/im/pictures/abce6121-7806-4353-8f23-8acab89852c2.jpg?im_w=720"></img>
 </Slider>
-<br></br><b>Bingin Beach,Indonasia</b>&nbsp;&nbsp;&nbsp;&nbsp;★4.95<Heart></Heart><br></br>4,784 kilometers away<br></br>26-31 Aug<br></br><b>₹37,673</b> night
+<br></br><b>Bingin Beach,Indonasia</b><Heart></Heart><br></br>4,784 kilometers away<br></br>26-31 Aug<br></br><b>₹37,673</b> night
 </div>
 <div className="ab">
 <Slider {...settings}>
@@ -205,7 +210,7 @@ function SimpleSlider() {
 <img src="https://a0.muscache.com/im/pictures/2ef5defc-c684-42f0-8001-4d2fea7165d1.jpg?im_w=720"></img>
 <img src="https://a0.muscache.com/im/pictures/6a79cdb2-4e12-47e8-aed8-aa8b8aba81a9.jpg?im_w=720"></img>
 </Slider>
-<br></br><b>Austin,Texas US</b>&nbsp;&nbsp;&nbsp;&nbsp;★4.92<Heart></Heart><br></br>15,490 kilometers away<br></br>25-30 Aug<br></br><b>₹51,835</b> night
+<br></br><b>Texas US</b>&nbsp;&nbsp;&nbsp;&nbsp;★4.92<Heart></Heart><br></br>15,490 kilometers away<br></br>25-30 Aug<br></br><b>₹51,835</b> night
 </div>
 <div className="ab">
 <Slider {...settings}>
