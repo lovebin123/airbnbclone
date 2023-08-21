@@ -1,35 +1,10 @@
-.toggle{
-  width:100vw;
-  transform: translateY(-2vh);
-  margin-left: -27vw;
- 
-}
 
-.toggle-wrapper{
-
-
-  align-items: center;
-
-  width:60vmin;
-  height: 8.5vmin;
-  margin: 3vw auto 0 auto;
-   position: relative;
-   right: -24.4vw;
-   top:-1vh;
-   border:0.063rem solid black;
-   border-radius:0.688rem;
-  
-  
-}
 .toggler1{
-  margin-left: 32vmin;
-  transform: translateY(-2.1vmin);
+position: relative;
+top: -19px;
+right: 58px;
 }
-.toggler{
 
-  margin-left: 9vmin;
-   transform: translateY(-3vmin);
-  }
 input[type=checkbox]{
   height: 0;
   width: 0;
@@ -77,8 +52,8 @@ label:active:after {
 .toggler .vr{
   height:1.5em;
   position: relative;
-  bottom: -0.375rem;
-  transform: translate(110px);
+  bottom: -0.390rem;
+  transform: translate(80px);
   top:20px;
 }
 .column {
@@ -94,13 +69,13 @@ body{
 .p15{
   font-weight: bold;
   transform: translateY(60px);
-  margin-left: -45px;
+  margin-left: -70px;
   
 }
 .p17{
-  transform: translateY(-10px);
+  transform: translateY(-9px);
   position: relative;
-  left: 120px;
+  left: 90px;
 
 }
 @media  (min-width:961px)  {
@@ -122,8 +97,8 @@ body{
 }
 .toggler1{
  
-  margin-left: 32vmin;
-  transform: translateY(-2.5vmin);
+  margin-left: 37vmin;
+  transform: translateY(-5.4vmin);
 }
 .toggler{
 

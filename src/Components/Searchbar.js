@@ -40,8 +40,8 @@ function Searchbar() {
             
               </p>
          <p className='p3'>
-             <button type="button" className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-3 px-3 border border-gray-400 rounded shadow" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <i class="fa-solid fa-circle-user" style={{color: '#727479;'}}></i>  Login
+             <button type="button" className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-3 border border-gray-400 rounded shadow" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-circle-user" style={{color: '#727479;'}}></i><img width="25" height="25" src="https://img.icons8.com/color/48/google-logo.png" alt="google-logo"/>
 
 </button>
 </p>  </div>

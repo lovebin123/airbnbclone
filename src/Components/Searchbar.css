@@ -237,3 +237,10 @@ body.active-modal {
       width: 50%;
     }
   }
+  .p3 img{
+    transform:translate(14px);
+    margin-top: -25.7px;
+  }
+  .p3 i{
+    transform: translate(-11px);
+  }
