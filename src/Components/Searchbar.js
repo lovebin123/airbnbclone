@@ -324,8 +324,17 @@ function Searchbar() {
                 </div>
                 <div className='col-sm-4 grider' >
                 <img src='https://a0.muscache.com/im/pictures/d77de9f5-5318-4571-88c7-e97d2355d20a.jpg?im_w=320' className='im'></img>
-                <br></br> <b>SouthEast Asia</b>
+                 <b>SouthEast Asia</b>
                 </div>
+                <div className='col-sm-4 grider' >
+                <img src='https://a0.muscache.com/im/pictures/ea5598d7-2b07-4ed7-84da-d1eabd9f2714.jpg?im_w=320' className='im'></img>
+                 <b>Italy</b>
+                </div>
+                <div className='col-sm-4 grider' >
+                <img src='https://a0.muscache.com/im/pictures/4e762891-75a3-4fe1-b73a-cd7e673ba915.jpg?im_w=320' className='im'></img>
+                 <b>United States</b>
+                </div>
+
          </div>       
         </div>
       </div>

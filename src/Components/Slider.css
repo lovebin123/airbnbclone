@@ -10,7 +10,7 @@
  bottom: -45px;
  width:75vmax;
 
- right: -12vw;
+ right: -210px;
 
 }
 .box {
@@ -159,12 +159,20 @@ transform: translateX(26vw);
   transform: translateY(21px);
   margin-left: -20px;
 }
-.column {
-  width: 100%;
-}
+@media screen and (max-width: 1254px) {
+  .slider-container{
+ 
+    width:70vw;
+    height: 15vh;
+    
+  }
+  .slider-wrapper{
 
-@media (min-width: 600px) {
-  .column {
-    width: 50%;
+    position:relative ;
+   bottom: -45px;
+   width:85vmax;
+  
+   right: -20px;
+  
   }
 }

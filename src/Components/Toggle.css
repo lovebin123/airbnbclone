@@ -7,16 +7,16 @@
     align-items: center;
     width: 30%;
     border: 0.5px solid black;
-    border-radius: 13px;
+    border-radius: 0.813rem;
     position: relative;
-  left: 650px;
+  left: 40.625rem;
 
 }
 
 .toggler1{
 position: relative;
-top: -2vh;
-right: 2vw;
+top: -21.6px;
+right: 19.44px;
 }
 
 input[type=checkbox]{
@@ -67,8 +67,8 @@ label:active:after {
   height:1.5em;
   position: relative;
   bottom: -0.390rem;
-  transform: translate(110px);
-  top:33px;
+  transform: translate(6.875rem);
+  top:2.063rem;
 }
 .column {
   width: 100%;
@@ -83,27 +83,38 @@ body{
 .p15{
   font-weight: bold;
 position: relative;
-top:72px;
-right: 40px;
+top:4.5rem;
+right: 2.5rem;
 
   
 }
 .p17{
  
   position: relative;
-  left: 130px;
-  top:3px;
+  left: 8.125rem;
+  top:0.188rem;
 
 }
 
-.toggler1{
- 
-  margin-left: 37vmin;
-  transform: translateY(-5.4vmin);
-}
 .toggler{
 
   margin-left: 9vmin;
    transform: translateY(-3vmin);
   }
 
+  @media screen and (max-width: 1254px) {
+    .toggle-container{
+      width: 100%;
+    }
+    .toggle-wrapper{
+      display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 45%;
+        border: 0.5px solid black;
+        border-radius: 0.813rem;
+        position: relative;
+      left: 21.5rem;
+    
+    }
+  }
