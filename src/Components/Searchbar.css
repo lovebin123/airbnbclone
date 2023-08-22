@@ -241,3 +241,14 @@ body.active-modal {
   .p3 i{
     transform: translate(-11px);
   }
+  .custom-button {
+    background-color: #ff4d6c;
+  }
+  .collapse.show {
+    visibility: visible;
+  }
+  .im{
+    border: 1px solid black;
+    border-radius: 13px;
+  }
+  

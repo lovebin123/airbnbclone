@@ -21,6 +21,7 @@ function Searchbar() {
     textAlign: 'center',
     color: theme.palette.text.secondary,
   }));
+  
   return (
     <div className='searchbar-container'>
         <div className='searchbar-wrapper'> 
@@ -28,12 +29,14 @@ function Searchbar() {
             <img width="48" height="48" src="https://img.icons8.com/color/48/airbnb.png" alt="airbnb"/><b>airbnb</b>
             </div>
             <div className='btn-group'>
-              <button className='anywhere'>&nbsp;&nbsp;Anywhere&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="vr"></div></button>
-              <button>Any week&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="vr"></div></button>
-              <button className='guests'><div className='just'>Add Guests<img class='img-circle' width={26} height={26} src={glass}></img></div> </button>
+              <button data-bs-toggle="modal" data-bs-target="#btngroup" className='anywhere'>&nbsp;&nbsp;Anywhere&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="vr"></div></button>
+              <button data-bs-toggle="modal" data-bs-target="#btngroup">Any week&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="vr"></div></button>
+              <button data-bs-toggle="modal" data-bs-target="#btngroup" className='guests'><div className='just'>Add Guests<img class='img-circle' width={26} height={26} src={glass}></img></div> </button>
            
          
             </div>
+          
+
             <div className='loginstuff'>
               <p className='p1'><a href='https://www.airbnb.co.in/host/homes' ><b>Airnub your home</b>&nbsp;&nbsp;</a></p>
               <p className='p2'><button type='button' data-bs-toggle="modal" data-bs-target="#language"><img width="18" height="18" src="https://img.icons8.com/ios-glyphs/30/geography.png" alt="geography"/></button>
@@ -286,7 +289,56 @@ function Searchbar() {
     
     </div>
   </div>
-</div></div>
+</div>
+<div class="modal fade" id="btngroup" tabindex="-1" aria-labelledby="btngroup" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+  <button type="button" class=" px-6 py-4 text-sm font-medium text-gray-900 bg-red-400 border border-gray-900 rounded-xl hover:bg-gray-100 hover:text-black focus:z-10 focus:ring-2 focus:ring-gray-200 focus:bg-gray-100 focus:text-black dark:border-white dark:text-black dark:hover:text-black dark:hover:bg-white-700 dark:focus:bg-pink-700" data-bs-toggle="collapse" data-bs-target='#dest' aria-hidden="false" aria-controls='dest'>
+    Search Destinations
+  </button>
+  <button type="button" class="px-6 py-4 text-sm font-medium text-gray-900 bg-red-400 border border-b border-gray-900 rounded-xl hover:bg-gray-100 hover:text-black focus:z-10 focus:ring-2 focus:ring-gray-200 focus:bg-gray-100 focus:text-black dark:border-white dark:text-black dark:hover:text-black dark:hover:bg-white-700 dark:focus:bg-pink-700" data-bs-toggle="collapse" data-bs-target='#calen' aria-expanded="false" aria-controls='calen'>
+    Choose Date
+  </button>
+  <button type="button" class="px-6 py-4 text-sm font-medium text-gray-900 bg-red-400 border border-gray-900 rounded-xl hover:bg-gray-100 hover:text-black focus:z-10 focus:ring-2 focus:ring-gray-200 focus:bg-gray-100 focus:text-black dark:border-white dark:text-black dark:hover:text-black dark:hover:bg-white-700 dark:focus:bg-pink-700" data-bs-toggle="collapse" data-bs-target='#gues' aria-expanded="false" aria-controls='gues'>
+    Add Guests
+  </button>
+
+      </div>
+      <div class="modal-body">
+        
+      <div className='collapse' id='dest'>
+        <div className='row'>
+         <div className='col-sm-4 grider'>
+                <img src='https://a0.muscache.com/pictures/f9ec8a23-ed44-420b-83e5-10ff1f071a13.jpg ' className='im'></img><b>I am flexible</b>
+                </div>
+                
+                <div className='col-sm-4 grider' >
+                <img src='https://a0.muscache.com/im/pictures/7b5cf816-6c16-49f8-99e5-cbc4adfd97e2.jpg?im_w=320' className='im'></img>
+                 <b>Europe</b>
+                </div>
+                <div className='col-sm-4 grider' >
+                <img src='https://a0.muscache.com/im/pictures/dbb2b5ef-2efe-4099-81ac-c7b957f384ed.jpg?im_w=320' className='im'></img>
+                 <b>United Kingdom</b>
+                </div>
+                <div className='col-sm-4 grider' >
+                <img src='https://a0.muscache.com/im/pictures/d77de9f5-5318-4571-88c7-e97d2355d20a.jpg?im_w=320' className='im'></img>
+                <br></br> <b>SouthEast Asia</b>
+                </div>
+         </div>       
+        </div>
+      </div>
+      
+    </div>
+    
+    </div>
+  </div>
+</div>
+
+
+  
+
     
   )
 }

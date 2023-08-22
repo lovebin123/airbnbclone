@@ -2,7 +2,7 @@ import React from 'react'
 import '../Components/Toggle.css'
 function Toggle1() {
   return (
-    <div className='container  my-9   w-25 rounded-4 h-20 border border-black '>
+    <div className='col-sm-4 w-custom rounded-4 h-20 border border-black '>
         
           <div className='toggler'>
             <p className='p15'>Display total price</p><div className='vr'></div><p className='p17'>Include all fees before taxes &nbsp;&nbsp;&nbsp;&nbsp;   <input type="checkbox" id="switch" /><label for="switch">Toggle</label></p>
