@@ -1,3 +1,17 @@
+.toggle-container{
+  width: 100%;
+}
+.toggle-wrapper{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    border: 0.5px solid black;
+    border-radius: 13px;
+    position: relative;
+  left: 650px;
+
+}
 
 .toggler1{
 position: relative;
@@ -53,8 +67,8 @@ label:active:after {
   height:1.5em;
   position: relative;
   bottom: -0.390rem;
-  transform: translate(139px);
-  top:20px;
+  transform: translate(110px);
+  top:33px;
 }
 .column {
   width: 100%;
@@ -69,35 +83,19 @@ body{
 .p15{
   font-weight: bold;
 position: relative;
-top:59px;
-right: 10px;
+top:72px;
+right: 40px;
 
   
 }
 .p17{
  
   position: relative;
-  left: 150px;
-  top:-9px;
+  left: 130px;
+  top:3px;
 
 }
-@media  (min-width:961px)  {
-  .toggle-wrapper{
 
-
-  align-items: center;
-
-  width:60vmin;
-  height: 8.5vmin;
-  margin: 3vw auto 0 auto;
-   position: relative;
-   right: -24.4vw;
-   top:-1vh;
-   border:0.063rem solid black;
-   border-radius:0.688rem;
-  
-  
-}
 .toggler1{
  
   margin-left: 37vmin;
@@ -108,10 +106,4 @@ right: 10px;
   margin-left: 9vmin;
    transform: translateY(-3vmin);
   }
-}
-.w-custom{
 
-  position: relative;
-  left: 600px;
-  margin: 2%;
-}
