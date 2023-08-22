@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Calendar from 'react-calendar';
+import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css';
-function Calender() {
+function Calender1() {
     const [selectedRange, setSelectedRange] = useState([new Date(), new Date()]);
 
     const handleRangeChange = range => {
@@ -19,4 +19,4 @@ function Calender() {
     );
   }
   
-  export default Calender;
+  export default Calender1;

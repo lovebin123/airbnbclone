@@ -8,7 +8,8 @@ import Button from 'react-bootstrap/Button';
 import Grid from '@mui/material/Grid';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
-
+import Calender1 from './Calender';
+import Counter from './Counter';
 function Searchbar() {
   const [show, setShow] = useState(false);
 
@@ -295,7 +296,7 @@ function Searchbar() {
     <div class="modal-content">
       <div class="modal-header">
         
-  <button type="button" class=" px-6 py-4 text-sm font-medium text-gray-900 bg-red-400 border border-gray-900 rounded-xl hover:bg-gray-100 hover:text-black focus:z-10 focus:ring-2 focus:ring-gray-200 focus:bg-gray-100 focus:text-black dark:border-white dark:text-black dark:hover:text-black dark:hover:bg-white-700 dark:focus:bg-pink-700" data-bs-toggle="collapse" data-bs-target='#dest' aria-hidden="false" aria-controls='dest'>
+  <button type="button" class=" px-6 py-4 text-sm font-medium text-gray-900 bg-red-400 border border-gray-900 rounded-xl hover:bg-gray-100 hover:text-black focus:z-10 focus:ring-2 focus:ring-gray-200 focus:bg-gray-100 focus:text-black dark:border-white dark:text-black dark:hover:text-black dark:hover:bg-white-700 dark:focus:bg-pink-700" data-bs-toggle="collapse" data-bs-target='#dest' aria-expanded="false" aria-controls='dest'>
     Search Destinations
   </button>
   <button type="button" class="px-6 py-4 text-sm font-medium text-gray-900 bg-red-400 border border-b border-gray-900 rounded-xl hover:bg-gray-100 hover:text-black focus:z-10 focus:ring-2 focus:ring-gray-200 focus:bg-gray-100 focus:text-black dark:border-white dark:text-black dark:hover:text-black dark:hover:bg-white-700 dark:focus:bg-pink-700" data-bs-toggle="collapse" data-bs-target='#calen' aria-expanded="false" aria-controls='calen'>
@@ -307,9 +308,9 @@ function Searchbar() {
 
       </div>
       <div class="modal-body">
-        
+     <div className='row'>
       <div className='collapse' id='dest'>
-        <div className='row'>
+      <div className='row'>
          <div className='col-sm-4 grider'>
                 <img src='https://a0.muscache.com/pictures/f9ec8a23-ed44-420b-83e5-10ff1f071a13.jpg ' className='im'></img><b>I am flexible</b>
                 </div>
@@ -335,15 +336,35 @@ function Searchbar() {
                  <b>United States</b>
                 </div>
 
-         </div>       
+         </div></div>
+
+         <div className='collapse' id='calen'>
+                <div className='row'>
+                <Calender1/>
+                </div></div>
+                <div className='collapse' id='gues'>
+                <div className='row'>
+              <b>Adults</b>Age 13 or above <Counter/><hr/>
+                </div>
+                <div className='row'>
+              <b>Children</b>Age 2-12 <Counter/><hr/>
+                </div>
+                <div className='row'>
+                        <b>Infants</b>Under 2<Counter/> <hr/>
+                </div>
+                <div className='row'>
+                        <b>Pets</b><u>Bringing a service animal</u><Counter/> <hr/>
+                </div>
+                </div>
+         
         </div>
-      </div>
+      </div></div>
       
     </div>
     
     </div>
   </div>
-</div>
+
 
 
   

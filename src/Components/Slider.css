@@ -5,7 +5,8 @@
   
 }
 .slider-wrapper{
-
+  display: flex;
+flex-direction:column;
   position:relative ;
  bottom: -45px;
  width:75vmax;
@@ -167,7 +168,9 @@ transform: translateX(26vw);
     
   }
   .slider-wrapper{
-    display:-moz-grid-line;
+    display:flex;
+ 
+    justify-content: space-between;
     position:relative ;
    bottom: -45px;
    width:84vmax;
