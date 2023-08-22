@@ -68,14 +68,17 @@ body{
 }
 .p15{
   font-weight: bold;
-  transform: translateY(60px);
-  margin-left: -70px;
+position: relative;
+top:59px;
+right: 60px;
+
   
 }
 .p17{
-  transform: translateY(-9px);
+ 
   position: relative;
   left: 90px;
+  top:-9px;
 
 }
 @media  (min-width:961px)  {
