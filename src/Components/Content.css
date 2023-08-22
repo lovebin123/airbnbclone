@@ -63,4 +63,32 @@ position: relative;
   
  
 }
+@media screen and (max-width: 1254px) {
+  .grid img{
+    border-radius: 1.042vw;
+    position: relative;
+      height: 25vmin;
+    
+    }
+    .grid{
+      column-gap:20px ;
+ 
+    }
+    .ab{
+      padding: -10px;
+      
+     
+    }
+    .slick-dots li button {
+      color: #fff;
+      border: none;
+      background: #bbb;
+      border-radius: 50%;
+      width: -1.2rem;
+      height: 0.313rem;
+      cursor: pointer;
+      
+    }
+}
+
 

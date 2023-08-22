@@ -167,10 +167,10 @@ transform: translateX(26vw);
     
   }
   .slider-wrapper{
-
+    display:-moz-grid-line;
     position:relative ;
    bottom: -45px;
-   width:85vmax;
+   width:84vmax;
   
    right: -20px;
   

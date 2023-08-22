@@ -21,7 +21,7 @@ function SimpleSlider() {
   <div className="container-fluid">
    
     
-   <div class="grid grid-cols-6  gap-9 ">
+   <div class="grid grid-cols-6  gap-9 griderr ">
    <div className="ab">
 <Slider {...settings}>
 <img  src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-584469386220279136/original/227d4c26-43d5-42da-ad84-d039515c0bad.jpeg?im_w=720"></img>
