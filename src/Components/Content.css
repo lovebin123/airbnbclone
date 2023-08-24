@@ -92,3 +92,34 @@ position: relative;
 }
 
 
+@media screen and (max-width: 950px) {
+  .grid img{
+    border-radius: 1.042vw;
+    position: relative;
+      height: 180px;
+      
+    
+    }
+    .grid{
+      column-gap:20px ;
+ 
+    }
+    .ab{
+      padding: -35px;
+      font-size: 11px;
+     
+    }
+  
+    .slick-dots li button {
+      color: #fff;
+      border: none;
+      background: #bbb;
+      border-radius: 50%;
+      width: 1.1px;
+      height: 1.1px;
+      cursor: pointer;
+      
+    }
+}
+
+

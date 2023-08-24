@@ -37,3 +37,18 @@
          
     }
 }
+@media screen and (max-width: 950px) {
+    .btn{
+        background: transparent;
+        border: none;
+        position: fixed;
+        position: sticky;
+        background-color: green;   
+        transition: 0.5s ease; 
+        transform: translateY(-13rem);  
+         outline: none;
+         color: rgb(248, 244, 244);
+         float: right;
+         
+    }
+}

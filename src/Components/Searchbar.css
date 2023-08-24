@@ -1,3 +1,7 @@
+*{
+    margin:0;
+    padding: 0;
+}
 .searchbar-container{
     width:100%;
     
@@ -251,4 +255,59 @@ body.active-modal {
     border: 1px solid black;
     border-radius: 13px;
   }
-  
+  @media only screen and (max-width:950px){
+    .btn-group{
+        margin-left: 100px;
+    }
+    .btn-group button{
+   
+        background-color: #f8f5f4;
+       margin-top: 26px;
+        color: black; 
+        cursor: pointer; 
+     height: 50px;
+     text-align: center;
+     border: none;
+     width: 130px;
+     font-size: 14px;
+     
+      
+    }
+    
+    .loginstuff{
+        margin-right: 20px;
+        transform: translateY(6px);
+        
+    }
+    .loginstuff a img{
+        vertical-align: 3px;
+        height: 19px;
+    
+    }
+    
+    .loginstuff  a{
+        text-decoration: none;
+        display: inline-flexbox;
+        color: black;
+        
+    }
+    .loginstuff b{
+        vertical-align:7px;
+        font-size: 13px;
+        position: relative;
+        right: -22px;
+    }
+    .loginstuff i{
+        vertical-align:0px;
+        color: #727479;
+    
+    }
+    .loginstuff button{
+        font-size:19px;
+        border-radius: 30px;
+        vertical-align: 3px;
+        cursor: pointer;
+        border:0.5px thin;
+        
+    }
+  }
