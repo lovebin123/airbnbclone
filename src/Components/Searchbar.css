@@ -110,9 +110,10 @@
 .just{
     padding-top:12px ;
    padding-left: 4px;
+   
 }
 .just img{
-    border-radius: 17px;
+    border-radius: 14px;
     transform: translateY(-23px);
     
 }
@@ -252,7 +253,7 @@ body.active-modal {
     visibility: visible;
   }
   .im{
-    border: 1px solid black;
+    
     border-radius: 13px;
   }
   @media only screen and (max-width:950px){
@@ -311,3 +312,20 @@ body.active-modal {
         
     }
   }
+  .searchcircle{
+  
+  height: 25px;
+  position: relative;
+  left: -138px;
+  bottom: -40px;
+  width: 25px;
+    border: 1px solid rgb(245, 78, 105) ;
+    border-radius: 50%;
+    background-color: rgb(245, 78, 105);
+  }
+.grider :hover{
+  cursor: pointer;
+}
+.im:active{
+ border: 1px solid black;
+}
