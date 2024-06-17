@@ -204,11 +204,11 @@ function SimpleSlider() {
 </div>
 <div className="ab">
 <Slider {...settings}>
-<img src="https://a0.muscache.com/im/pictures/miso/Hosting-28254684/original/99bd44d1-abca-4b1c-b5da-eb05eaac9193.jpeg?im_w=720"></img>
-<img src="https://a0.muscache.com/im/pictures/b5f7057b-32d4-4d15-a7bf-5e95b647a8d2.jpg?im_w=720"></img>
-<img src="https://a0.muscache.com/im/pictures/miso/Hosting-28254684/original/a885d4ee-ecad-4422-a3c4-d3e6352163cc.jpeg?im_w=720"></img>
-<img src="https://a0.muscache.com/im/pictures/2ef5defc-c684-42f0-8001-4d2fea7165d1.jpg?im_w=720"></img>
-<img src="https://a0.muscache.com/im/pictures/6a79cdb2-4e12-47e8-aed8-aa8b8aba81a9.jpg?im_w=720"></img>
+<img src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/07f1afed-44cb-429e-a794-e9fe674051ad.jpeg?im_w=720"></img>
+<img src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/95fe8c57-b5a0-4004-ba29-62b3d4035848.jpeg?im_w=720"></img>
+<img src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/94126181-fa2c-499e-960e-a17ffe8520dc.jpeg?im_w=720"></img>
+<img src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/f26ebb19-ed52-407e-a560-ba4bbec0d411.jpeg?im_w=720"></img>
+<img src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/9876b43c-998e-4683-9592-21a64930b071.jpeg?im_w=720"></img>
 </Slider>
 <br></br><b>Texas US</b>&nbsp;&nbsp;&nbsp;&nbsp;★4.92<Heart></Heart><br></br>15,490 kilometers away<br></br>25-30 Aug<br></br><b>₹51,835</b> night
 </div>
